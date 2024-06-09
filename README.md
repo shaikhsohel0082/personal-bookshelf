@@ -8,6 +8,7 @@ This is a simple React application that allows users to search for books and add
 2. **Add to Bookshelf**: Users can add books to their personal bookshelf.
 3. **Persistent Storage**: The application uses persistent storage to save the user's bookshelf.
 
+## Live Demo:
 ## Folder Structure
 
 ```
@@ -47,6 +48,7 @@ To get started with this project, follow these steps:
 
 1. Clone this repository.
 ```
+https://github.com/shaikhsohel0082/personal-bookshelf.git
 ```
 2. Install the necessary dependencies by running `npm install`.
 3. Start the development server by running `npm start`.

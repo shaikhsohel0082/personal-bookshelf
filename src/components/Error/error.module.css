@@ -1,0 +1,10 @@
+.div {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.err {
+    text-align: center;
+    font-size: 4rem;
+    color: rgb(177, 42, 42);
+}

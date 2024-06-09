@@ -44,7 +44,10 @@ export default function Home() {
               <>
                 <div key={index} className={Styles.card}>
                   <div>
-                    <b>Book Title:</b> {book.title}
+                    <b>Book Title:</b>{" "}
+                    {book.title.toString().length > 25
+                      ? book.title.toString().slice(0, 25) + "..."
+                      : book.title}
                   </div>
                   <div>
                     <b>Author:</b>
