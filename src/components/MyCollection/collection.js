@@ -8,22 +8,26 @@ export default function Collection() {
     <>
       <h1>Personal Collection</h1>
       <div className={Styles.container}>
-        {myBooks.map((book, index) => (
-          <div key={index} className={Styles.card}>
-            <div>
-              <b>Book Title:</b> {book.title}
+        {myBooks.length === 0 ? (
+          <div className={Styles.card}>No books in collection</div>
+        ) : (
+          myBooks.map((book, index) => (
+            <div key={index} className={Styles.card}>
+              <div>
+                <b>Book Title:</b> {book.title}
+              </div>
+              <div>
+                <b>Author:</b>
+                {book.author_name.toString().length > 25
+                  ? book.author_name.toString().slice(0, 25) + "..."
+                  : book.author_name}
+              </div>
+              <div>
+                <b>Edition Count:</b> {book.edition_count}
+              </div>
             </div>
-            <div>
-              <b>Author:</b>
-              {book.author_name.toString().length > 25
-                ? book.author_name.toString().slice(0, 25) + "..."
-                : book.author_name}
-            </div>
-            <div>
-              <b>Edition Count:</b> {book.edition_count}
-            </div>
-          </div>
-        ))}
+          ))
+        )}
       </div>
     </>
   );
