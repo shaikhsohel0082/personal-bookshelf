@@ -9,7 +9,7 @@ export default function Collection() {
       <h1>Personal Collection</h1>
       <div className={Styles.container}>
         {!myBooks ? (
-          <div className={Styles.card}>No books in collection</div>
+          <h2>No books in collection</h2>
         ) : (
           myBooks.map((book, index) => (
             <div key={index} className={Styles.card}>

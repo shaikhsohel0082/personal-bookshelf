@@ -65,9 +65,9 @@ https://github.com/shaikhsohel0082/personal-bookshelf.git
 4. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ### Home
-![Home](path/to/image)
+![Home](src/components/Home/home.png)
 ### MyBookShelf
-![MyBookShelf](path/to/image)
+![MyBookShelf](src/components//MyCollection/collection.png)
 
 ## Contributing
 
