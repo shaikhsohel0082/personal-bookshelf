@@ -1,0 +1,32 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+
+}
+
+.nav {
+    height: max-content;
+    width: 100vw;
+    display: flex;
+    background-color: rgb(196, 129, 81);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 2rem;
+    align-items: center;
+    justify-content: space-around;
+    color: rgb(0, 255, 0);
+}
+
+img {
+    height: 60px;
+    width: 60px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 255, 0);
+}
